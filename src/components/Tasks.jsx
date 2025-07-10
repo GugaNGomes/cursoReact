@@ -29,13 +29,6 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
           <Button onClick={() => onDeleteTaskClick(tasks.id)}>
             <TrashIcon />
           </Button>
-
-          <button
-            className="bg-slate-400 p-2 rounded-md text-white"
-            onClick={() => onDeleteTaskClick(tasks.id)}
-          >
-            <TrashIcon />
-          </button>
         </li>
       ))}
     </ul>
